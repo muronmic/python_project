@@ -1,7 +1,7 @@
 # python_project
 
 V tomto repozitáři naleznete vypracovaný python projekt. Projekt obsahuje mapy, proto doporučuji se na výsledný notebook podívat pomocí následujícího odkazu: 
-https://nbviewer.org/github/muronmic/python_project/blob/main/Project_Muronmic_final.ipynb
+https://nbviewer.org/github/muronmic/python_project/blob/main/Project_Muronmic_final.ipynb?flush_cache=true
 
 Cílem projektu bylo zpracovat informace o "bike sharing" firmy Just Eat Cycles a tím pomoct zefektivnit celý proces půjčování kol (bohužel firma skončila v polovině roku 2021). 
 
@@ -23,3 +23,10 @@ Proveďte standardní deskriptivní statistiku dat. Také zjistěte minimálně 
 
 
 ## Postup: 
+
+### Příprava prostředí
+Jako první jsem si naimportovala všechny potřebné knihovny a nastavila konexi do mysql databáze, kde jsou uložené tabulky, které byly třeba pro vypracování projektu. 
+
+Potom jsem načetla tabulku edinburgh_bikes a mohla dále s touto tabulkou pracovat. Vytáhla jsem si z této tabulky seznam všech stanic podle jejich ID a přidala k nim jejich jméno a polohu, jelikož tyto informace byly nadále potřeba. 
+
+### Aktivní a neaktivní stanice
