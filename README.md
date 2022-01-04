@@ -2,6 +2,7 @@
 
 V tomto repozitáři naleznete vypracovaný python projekt. Projekt obsahuje mapy, proto doporučuji se na výsledný notebook podívat pomocí následujícího odkazu: 
 https://nbviewer.org/github/muronmic/python_project/blob/main/Project_Muronmic_final.ipynb?flush_cache=true
+https://nbviewer.org/github/muronmic/python_project/blob/a6b6d7b3e7f386a72ef4ca357c6bb95b2e47732b/Project_Muronmic_final.ipynb
 
 Cílem projektu bylo zpracovat informace o "bike sharing" firmy Just Eat Cycles a tím pomoct zefektivnit celý proces půjčování kol (bohužel firma skončila v polovině roku 2021). 
 
