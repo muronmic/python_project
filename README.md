@@ -67,4 +67,4 @@ Tady jsem použila tabulky `bikes_station_names` a `stations_2021_df` (to je tab
 
 
 
-
+pivottablejs
