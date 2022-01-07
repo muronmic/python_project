@@ -1,8 +1,7 @@
 # python_project
 
 V tomto repozitáři naleznete vypracovaný python projekt. Projekt obsahuje mapy, proto doporučuji se na výsledný notebook podívat pomocí následujícího odkazu: 
-https://nbviewer.org/github/muronmic/python_project/blob/main/Project_Muronmic_final.ipynb?flush_cache=true
-https://nbviewer.org/github/muronmic/python_project/blob/a6b6d7b3e7f386a72ef4ca357c6bb95b2e47732b/Project_Muronmic_final.ipynb
+http://nbviewer.org/github/muronmic/python_project/blob/main/Python_project_Muronmic_final.ipynb
 
 Cílem projektu bylo zpracovat informace o "bike sharing" firmy Just Eat Cycles a tím pomoct zefektivnit celý proces půjčování kol (bohužel firma skončila v polovině roku 2021). 
 
@@ -63,8 +62,10 @@ Vytvořila jsem tabulky `shortage_df` (stanice s nedostatkem - ty, které mají 
 
 ## Vzdálenosti mezi stanicemi
 
-Tady jsem použila tabulky `bikes_station_names` a `stations_2021_df` (to je tabulka, kde jsou uloženy stanice, které se použily v roce 2021). Použila jsem knihovny `geopy`, pomocí které jsem byla schopna vyčíslit vzdálenosti mezi stanicemi, a `qgrid`, díky které jsem mohla zobrazit tabulku se vzdálenostmi . 
+Tady jsem použila tabulky `bikes_station_names` a `stations_2021_df` (to je tabulka, kde jsou uloženy stanice, které se použily v roce 2021). Použila jsem knihovny `geopy`, pomocí které jsem byla schopna vyčíslit vzdálenosti mezi stanicemi, a `qgrid`, díky které jsem mohla zobrazit tabulku se vzdálenostmi. Vyzkoušela jsem také vytvořit widgety pomocí `ipywidgets` 
+
+Bohužel interaktivní tabulky s použitím qgrid nebo ipywidgets nejsou v githubu nebo v nbviewer viditelné, proto jsem zobrazila alespoň statický HTML náhled.
+
+## Délka jedné výpůjčky
 
 
-
-pivottablejs
