@@ -61,6 +61,10 @@ Poté jsem vytvořila sloupec `total_bikes`, který je rozdíem příchozích a 
 Vytvořila jsem tabulky `shortage_df` (stanice s nedostatkem - ty, které mají průměrně za den o 2 kola méně)  a `excess_df` (stanice s nadbytkem - ty, které mají průměrně za den o 2 kola více). Pozn. opět jsem pracovala pouze se stanicemi, které se v roce 2021 použily alespoň jednou. Stanice v těchto tabulkách jsem zobrazila do mapy, zeleně jsou označené stanice s nadbytkem, červeně s nedostatkem. 
 
 
+## Vzdálenosti mezi stanicemi
+
+Tady jsem použila tabulky `bikes_station_names` a `stations_2021_df` (to je tabulka, kde jsou uloženy stanice, které se použily v roce 2021). Použila jsem knihovny `geopy`, pomocí které jsem byla schopna vyčíslit vzdálenosti mezi stanicemi, a `qgrid`, díky které jsem mohla zobrazit tabulku se vzdálenostmi . 
+
 
 
 
