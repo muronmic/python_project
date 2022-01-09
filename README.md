@@ -64,7 +64,7 @@ Vytvořila jsem DF `shortage_df` (stanice s nedostatkem - ty, které mají prům
 
 Tady jsem použila DataFrame `bikes_station_names` a `stations_2021_df` (to je DF, kde jsou uloženy stanice, které se použily v roce 2021). Použila jsem knihovny `geopy`, pomocí které jsem byla schopna vyčíslit vzdálenosti mezi stanicemi, a `qgrid`, díky které jsem mohla zobrazit DF se vzdálenostmi. Vyzkoušela jsem také vytvořit widgety pomocí `ipywidgets` 
 
-Bohužel interaktivní tabulky s použitím qgrid nebo ipywidgets nejsou v githubu nebo v nbviewer viditelné, proto jsem zobrazila alespoň statický HTML náhled.
+> :warning: Bohužel interaktivní tabulky s použitím qgrid nebo ipywidgets nejsou v githubu nebo v nbviewer viditelné, proto jsem zobrazila alespoň statický HTML náhled.
 
 ## Délka jedné výpůjčky
 
@@ -111,3 +111,6 @@ Data odpovídají korelačním maticím. Můžeme vidět, že existuje pozitivn�
 
 ## Rozdíl mezi poptávkou o víkendu a v pracovních dnech
 
+Opět jsem pracovala s kopií DF `bikes_df` a přidala údaje jako `date_start` atd. Vypočítala jsem kolik dní provozu bylo v letech 2018 - 2021 a kolik z nich bylo pracovních a kolik víkendových. 
+
+Poté jsem pracovala s celkovými počty za celé časové období - tj. vypočítala kolik bylo celkově výpůjček, kolik jich bylo v pracovních dnech a kolik o víkendu a kolik bylo průměrně za den výpůjček, kolik průměrně o víkendu a kolik průměrně v pracovních dnech. Tytéž informace jsem vypočítala pro každý rok 2018 - 2021 zvlášť. Tyto informace jsem zaznamenala do "kolekce" grafů, která nám ukazuje koláčové grafy, kde je podíl výpůjček o víkendu a pracovních dnech pro každý rok i celkově, dále ukazuje také sloupcový graf, kde je znázorněn průměrný počet výpůjček o víkendových a v pracovních dnech. V sloupcovém grafu nalezneme také informaci, o kolik procent byla poptávka po půjčování kol vyšší o víkendu než v pracovních dnech. 
